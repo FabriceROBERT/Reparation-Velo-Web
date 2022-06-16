@@ -1,0 +1,231 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+
+/* nav {
+  height: 130px;
+} */
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   /* background-color: #000; */
+   background-image: linear-gradient(to right, #6303B1    , teal);
+    min-height: 200vh;
+}
+
+li a {
+    text-decoration:none; 
+   }
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: 5e60ce;
+    margin: auto;
+    padding: auto;
+    
+
+}
+li {
+  color:#64dfdf;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+
+li:hover {
+    opacity: 1;
+    color: white;
+    text-shadow: 2px 2px 4px #c5c5c5;
+}
+
+
+ .cmt {
+        
+    
+        text-align: center;
+        font-size: 50px;    
+        color: wheat;
+        font-weight: 550;
+
+        
+    }
+
+
+section{
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+
+  section .container{
+	margin:150px;
+  }
+  section h1{
+	font-size: 3rem;
+	margin: 20px;
+  }
+  section h2{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+  }
+  section .text-container{
+	 display: flex;
+  }
+
+
+  section .text-container {
+	margin: 20px;
+	padding: 60px;
+	height: 800px;
+	background: #c0c5d1;
+
+	font-weight: 500;
+	font-size: 20PX;
+  }
+
+
+H3 {
+	font-size: 30PX;
+	text-align: center;
+	/* color: rgb(29, 29, 29); */
+}
+
+
+
+.explication {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.rdv {
+  border: 12px;
+  background-color: beige;
+  margin: 20px;
+}
+
+
+.repair {
+  border: 12px;
+  background-color: beige;
+  margin: 20px;
+}
+
+
+.neuf {
+  border: 12px;
+  background-color: beige;
+  margin: 20px;
+}
+
+
+  section .text-container .text-box{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+  }
+  
+  @media (max-width: 900px){
+	section h1{
+	  font-size: 2rem;
+	  text-align: center;
+	}
+	section .text-container{
+	  flex-direction: column;
+	}
+  }
+  
+  .reveal{
+	position: relative;
+	transform: translateY(200px);
+	opacity: 0;
+	transition: 2s all ease;
+  }
+  
+  .reveal.active{
+	transform: translateY(0);
+	opacity: 1}
+
+
+  #gif{
+   width: 100%;
+   position: absolute;
+  
+  }
+
+  
+.connexion {
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  background: #353c9a;
+  border: none;
+  color: white;
+  font-size: 20px;
+  
+
+  
+}
+
+
+#Deconnexion {
+
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  background: #353c9a;
+  border: none;
+  color: whitesmoke;
+  font-size: 20px;
+text-decoration: none;
+
+
+}
+
+    
+
+.inscription{
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  background: #353c9a;
+  border: none;
+  color: whitesmoke;
+  font-size: 20px;
+
+  
+}
+
+.exm {
+  position: relative;
+  padding: auto;
+margin: 300px;
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+  border: double 10px white;
+  height: 380px;
+
+}
+
+.exm h1 {
+  text-align: center;
+  padding: 20px;
+}
